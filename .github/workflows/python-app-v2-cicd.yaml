@@ -2,10 +2,10 @@ name: python-app-v2-cicd
 
 on:
   push:
-    paths:
-      - src/**
+    #paths:
+      #- src/**
     branches:
-      - master
+      - develop
 
 jobs:
   ci:
@@ -90,3 +90,4 @@ jobs:
       #   run: |
       #     argocd app sync python-app-v2
       #     argocd app wait python-app-v2 --timeout 180
+
