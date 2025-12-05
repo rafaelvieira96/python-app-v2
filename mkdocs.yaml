@@ -1,0 +1,12 @@
+site_name: 'python-app-v2'
+site_description: 'Main documentation for the python-app-v2'
+repo_url: https://github.com/ricardoandre97/python-app-v2
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
